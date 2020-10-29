@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-boot-soap-webservice:war">
+    <output-path>$PROJECT_DIR$/spring-boot-soap-webservice/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-boot-soap-webservice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-boot-soap-webservice-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-boot-soap-webservice:war exploded" />
+    </root>
+  </artifact>
+</component>
